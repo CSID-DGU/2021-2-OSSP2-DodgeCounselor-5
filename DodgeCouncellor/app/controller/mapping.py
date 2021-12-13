@@ -55,9 +55,20 @@ def homePage():
 
         for info in infoList :
             print(info)
+
     except HTTPError as e:
         print("에러 발생 :", e)
         return render_template('/dodgecall-홈페이지.html')
     
     print("총 소요 시간 :", time.time() - start_time)
-    return render_template('측정결과창.html', result = "infoLis")
+    
+    avgSum = (infoList[0]['totalScore'] + infoList[1]['totalScore'] + infoList[2]['totalScore'] + infoList[3]['totalScore'] + infoList[4]['totalScore']) / 5
+    adviceData = ""
+    if (avgSum > 150):
+        adviceData = "질겁니다"
+    elif (avgSum > 100):
+        adviceData = "힘들겁니다"
+    else:
+        adviceData = "버스손잡이 꽉잡으세요"
+    print(avgSum)
+    return render_template('측정결과창.html', result = infoList, teamsum = avgSum, advice = adviceData)

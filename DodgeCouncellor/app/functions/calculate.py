@@ -71,7 +71,7 @@ def calculateScorePerUser(userName, target) :
             resultSet['trollScore'][i] += (visionDiff * visionScoreWeight)
             resultSet['visionLowCount'] += 1
 
-        resultSet['trollScore'][i] = round(resultSet['trollScore'][i], 1)
+        resultSet['trollScore'][i] = round(resultSet['trollScore'][i])
 
         resultSet['totalScore'] += resultSet['trollScore'][i]
 

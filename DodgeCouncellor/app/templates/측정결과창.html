@@ -7,10 +7,10 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>측정결과창</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="측정결과창.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link rel="stylesheet" href="../static/css/nicepage.css" media="screen">
+<link rel="stylesheet" href="../static/css/측정결과창.css" media="screen">
+    <script class="u-script" type="text/javascript" src="../static/css/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="../static/css/nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.0.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
@@ -27,6 +27,7 @@
   <body class="u-body">
     <section class="u-clearfix u-palette-1-base u-section-1" id="sec-d6e8">
       <h1 class="u-text u-text-default u-text-1">측정 결과</h1>
+      <h4 class="u-text u-text-default u-text-1">최근 20판 전적별 트롤점수</h4>
       <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
@@ -40,45 +41,46 @@
                     </colgroup>
                     <tbody class="u-table-body">
                       <tr style="height: 27px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][0]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][1]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][2]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][3]}}</td>
                       </tr>
                       <tr style="height: 43px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][4]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][5]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][6]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][7]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][8]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][9]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][10]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][11]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][12]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][13]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][14]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][15]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][16]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][17]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][18]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[0]['trollScore'][19]}}</td>
                       </tr>
+                      <center><p>{{result[0]['userName']}}</p></center>
                     </tbody>
                   </table>
                 </div>
@@ -94,45 +96,46 @@
                     </colgroup>
                     <tbody class="u-table-body">
                       <tr style="height: 27px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][0]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][1]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][2]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][3]}}</td>
                       </tr>
                       <tr style="height: 43px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][4]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][5]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][6]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][7]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][8]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][9]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][10]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][11]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][12]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][13]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][14]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][15]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][16]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][17]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][18]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[1]['trollScore'][19]}}</td>
                       </tr>
+                      <center><p>{{result[1]['userName']}}</p></center>
                     </tbody>
                   </table>
                 </div>
@@ -148,45 +151,46 @@
                     </colgroup>
                     <tbody class="u-table-body">
                       <tr style="height: 27px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][0]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][1]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][2]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][3]}}</td>
                       </tr>
                       <tr style="height: 43px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][4]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][5]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][6]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][7]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][8]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][9]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][10]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][11]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][12]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][13]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][14]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][15]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][16]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][17]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][18]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[2]['trollScore'][19]}}</td>
                       </tr>
+                      <center><p>{{result[2]['userName']}}</p></center>
                     </tbody>
                   </table>
                 </div>
@@ -202,45 +206,46 @@
                     </colgroup>
                     <tbody class="u-table-body">
                       <tr style="height: 27px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][0]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][1]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][2]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][3]}}</td>
                       </tr>
                       <tr style="height: 43px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][4]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][5]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][6]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][7]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][8]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][9]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][10]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][11]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][12]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][13]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][14]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][15]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][16]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][17]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][18]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[3]['trollScore'][19]}}</td>
                       </tr>
+                      <center><p>{{result[3]['userName']}}</p></center>
                     </tbody>
                   </table>
                 </div>
@@ -256,45 +261,46 @@
                     </colgroup>
                     <tbody class="u-table-body">
                       <tr style="height: 27px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][0]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][1]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][2]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][3]}}</td>
                       </tr>
                       <tr style="height: 43px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][4]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][5]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][6]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][7]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][8]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][9]}}</td>
                       </tr>
                       <tr style="height: 45px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][10]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][11]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][12]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][13]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][14]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][15]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][16]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][17]}}</td>
                       </tr>
                       <tr style="height: 46px;">
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][18]}}</td>
+                        <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{result[4]['trollScore'][19]}}</td>
                       </tr>
+                      <center><p>{{result[4]['userName']}}</p></center>
                     </tbody>
                   </table>
                 </div>
@@ -303,7 +309,7 @@
           </div>
         </div>
       </div>
-      <h2 class="u-text u-text-2">총합:&nbsp;<br>평가:&nbsp;
+      <h2 class="u-text u-text-2">트롤력 평균: {{teamsum}}<br>평가: {{advice}}
       </h2>
       <h4 class="u-text u-text-default u-text-3">
         <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-1" href="https://www.op.gg/">op.gg 바로 가기</a>

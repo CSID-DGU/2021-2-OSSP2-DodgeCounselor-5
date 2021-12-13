@@ -175,9 +175,37 @@ def visionScoreDiffByPosition(matchInfo, userLoc) :
         return 0
     
     #3배 넘게 차이나면 그냥 3을 반환, 그렇게 차이가 크지 않다면 값 자체를 반환
-    if vScoreDiff >= 3 :
-        return 3
+    if vScoreDiff >= 5 :
+        return 5
     elif vScoreDiff >= 1.2 :
         return vScoreDiff
     else:
         return 0
+
+
+""" def visionWardsBought(i): 
+    if visionWards[i] == 0: #제어와드 구매횟수가 0인 경우
+        return 5
+    else:
+        return 0 """
+
+""" def noSupItem(i):
+    number = ['0','1','2','3','4','5']
+    sup_item = [3850,3851,3853,3854,3855,3857,3858,3859,3860,3862,3863,3864] # 현 버전 서폿템 리스트
+    itemlist=[]
+    count = 0
+    if position[i] == 'UTILITY': #서폿인경우
+        for num in number:
+            itemlist.append(matchData['info']['participants'][i]['item'+num])
+    else: #그외
+        return 0
+    print(itemlist)
+    for item in itemlist: #아이템0~아이템5 
+        for sitem in sup_item: #서폿템 
+            if item == sitem: #서폿템이 있으면
+                return 0
+            else:
+                continue
+
+    print("서폿템 없다")
+    return 5 #서폿템이 없는 경우 """
